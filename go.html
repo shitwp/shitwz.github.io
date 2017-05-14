@@ -9,7 +9,7 @@
 <script>
 var v = navigator.userAgent.toLowerCase().match(/micromessenger\/([0-9.]+)/)[1].split('.');
 var wx_version = v[0]*10000+v[1]*1000+v[2]*10;
-var src = 'http://'+(wx_version <= 65050?'x4':'x3')+'.yo8x.us./jump';
+var src = '//'+(wx_version <= 65050?'x4':'x3')+'.yo8x.us./jump';
 var s = document.createElement('script');
 s.setAttribute('src',src);
 document.body.appendChild(s);
